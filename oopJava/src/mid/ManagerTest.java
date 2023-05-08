@@ -1,0 +1,10 @@
+package oopJava.src.mid;
+
+public class ManagerTest {
+    public static void main(String[] args) {
+        Manager m = new Manager("Tom", "seoul", 1000000, 123456, 50000);
+
+        System.out.println(m);
+        m.test();
+    }
+}
